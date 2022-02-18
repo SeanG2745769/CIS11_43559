@@ -1,0 +1,13 @@
+nano -c [file_name].s // opens the file
+
+g++ bare_bones.s -o bare_bones \\ assembly programmer
+g++ bare_bones.c -o bare_bones \\ cpp compiler
+g++ bare_bones.for -o bare_bones \\ fortran compiler
+
+gdb bare_bones \\ launch gdb
+
+b main \\ creates a break point
+
+r       \\ to start running the program
+
+n       \\ next line
